@@ -1,1 +1,9 @@
-// write your code here
+@import 'lib';
+
+.main-title {
+    @include rounded-corner-box(8px, , 0px, pink);
+}
+
+.kitty-pic {
+    @include rounded( steelblue, rgba(pink,0.5), 6p)
+}
