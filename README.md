@@ -1,6 +1,9 @@
 # SASS Workshop
 *Let's get sassy*
 
+sass --watch blog/scss/main.scss:blog/css/main.css 
+
+
 ## Base instructions
 * Fork this repo and clone it to a new Cloud9 project
 * Each exercise should be in a separate branch, branched off `master`
