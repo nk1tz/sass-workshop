@@ -1,0 +1,47 @@
+
+.HolyGrail {
+  display: flex;
+  height: 100%; 
+  flex-direction: column;
+}
+
+.HolyGrail-header,
+.HolyGrail-footer {
+  flex: none; 
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1 0 auto; 
+  flex-direction: column;
+  padding: 0;
+}
+
+.HolyGrail-content {
+  margin-top: 0;
+}
+
+.HolyGrail-nav {
+  order: -1;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+  padding: 1em;
+  border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1);
+}
+
+@media all and (min-width: 800px) {
+  .HolyGrail-body {
+    flex-direction: row;
+  }
+  .HolyGrail-content {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+  }
+  .HolyGrail-nav, .HolyGrail-ads {
+    flex: 0 0 12em;
+  }
+}
